@@ -46,7 +46,7 @@ class TabelPasien extends DB
 		$gender = $data['gender'];
 		$email = $data['email'];
 		$telp = $data['telp'];
-		// Query mysql add data pasien
+		// Query mysql update data pasien
 		$query = "UPDATE pasien SET nik='$nik', nama='$nama', tempat='$tempat', tl='$tl', gender='$gender', email='$email', telp='$telp' WHERE id='$id'";
 		// Mengeksekusi query
 		return $this->execute($query);
