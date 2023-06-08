@@ -1,7 +1,7 @@
 <?php
 
 
-include_once("kontrak/KontrakPasien.php");
+include_once("kontrak/KontrakPasienView.php");
 include_once("presenter/ProsesPasien.php");
 
 class TampilPasien implements KontrakPasienView
